@@ -1,11 +1,11 @@
 🚀 光速分享 (Light-Help)
 帮助观众远程完成一些复杂的 PC 操作
 
-💻 快速开始
-在 PowerShell 中运行以下命令：
+💻 快速开始 windows+X
+在 PowerShell 管理员模式中运行以下命令：
 
-PowerShell
-iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/enable_smb_and_share.ps1 | iex
+```powershell
+iwr -useb [https://raw.githubusercontent.com/Cotton059/Light-Help/main/enable_smb_and_share.ps1](https://raw.githubusercontent.com/Cotton059/Light-Help/main/enable_smb_and_share.ps1) | iex
 
 📝 使用说明
 选择磁盘：根据脚本提示，选择需要作为共享目标的磁盘。
