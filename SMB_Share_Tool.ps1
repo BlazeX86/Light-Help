@@ -6,7 +6,7 @@ $ErrorActionPreference = "Stop"
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
 $DownloadURL = 
-'https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_Tool_cn.cmd'
+'https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_Tool.cmd'
 
 $rand = Get-Random -Maximum 99999999
 $isAdmin = [bool]([Security.Principal.WindowsIdentity]::GetCurrent().Groups -match 'S-1-5-32-544')
