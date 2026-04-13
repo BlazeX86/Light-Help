@@ -15,10 +15,10 @@
 > 🔗 [Visit my Bilibili Homepage](https://space.bilibili.com/392977516)
 
 ---
-**Light Speed Share Video:**[Build a Pro Home Theater Without a NAS! Auto-Posters & Streaming on Any Device](https://youtu.be/USNIBEAcWME)  
+**Light Speed Share Video:**[Build a Pro Home Theater Without a NAS! Auto-Posters & Streaming on Any Device](https://youtu.be/EPpgy2S_9lg)  
 *(Help project, exclusively for viewers)*
 
-<a href="https://youtu.be/USNIBEAcWME" target="_blank">
+<a href="https://youtu.be/EPpgy2S_9lg" target="_blank">
   <img src="https://github.com/user-attachments/assets/ac237aef-5700-4b87-a8a4-ab16a8c7391e" width="320" alt="视频封面图" />
 </a>
 
