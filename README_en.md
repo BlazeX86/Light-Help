@@ -12,7 +12,7 @@
 > **Please Subscribe to Lightspeed Sharing**
 > I will continue to bring you more convenient and better tech videos.  
 > 🔗 [Visit my YouTube Channel](https://www.youtube.com/@光速分享)  
-> 🔗 [Visit my Bilibili Homepage](https://space.bilibili.com/392977516)
+
 ---
 **Lightspeed Sharing Video:**[How to Deep Clean Windows with 1 Line of Code! (No Software Needed)](https://youtu.be/f5Ta_W54GL0)  
 *(Help project, exclusively for viewers)*
