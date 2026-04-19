@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square">
+  <img src="https://github.com/Cotton059/Light-Help/actions/workflows/linter.yml/badge.svg">
+  <img src="https://github.com/Cotton059/Light-Help/actions/workflows/powershell-audit.yml/badge.svg">
+  <img src="https://img.shields.io/github/license/Cotton059/Light-Help?style=flat-square&color=blue">
+</p>
+
+---
 # Select Language
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README_en.md)
 [![zh-cn](https://img.shields.io/badge/lang-zh--cn-blue.svg)](README.md)
