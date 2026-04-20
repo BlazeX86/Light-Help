@@ -24,10 +24,19 @@
 
 ## 💻 Quick Start (Windows + X)
 Run the following command in **PowerShell Administrator Mode**:Run Light-Help 1-Click Cleanup Command
+### ☢️ Extreme Edition
+> **WARNING:** Clears all user-level caches. Cloud-based apps may require a full local re-sync.
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_Tool.ps1 | iex
 ```
+### 🛡️ v8.0 Balanced Edition
+> **NOTE:** Reclaims space with smart data isolation. Ideal if you prefer stability over "Geek-style" minimalism.
+```powershell
+
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_v8.0_Tool.ps1 | iex
+```
+
 ---
 **Lightspeed Sharing Video:**[Build a Pro Home Theater Without a NAS! Auto-Posters & Streaming on Any Device](https://youtu.be/EPpgy2S_9lg)  
 *(Help project, exclusively for viewers)*
