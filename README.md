@@ -38,10 +38,10 @@
 $s=(New-Object -COM WScript.Shell).CreateShortcut("$([Environment]::GetFolderPath('Desktop'))\Light-Help.url"); $s.TargetPath="https://github.com/Cotton059/Light-Help"; $s.Save()
 ```
 ---
-**光速分享（YT）视频：** [📺 一行代码搞定！Windows 软件数据一键备份与恢复](https://youtu.be/f5Ta_W54GL0)  
+**光速分享（YT）视频：** [📺 一行代码搞定！Windows 软件数据一键备份与恢复](https://youtu.be/5bBx3p3nWok)  
 *（帮助项目，观看用户专用）*
 
-<a href="https://youtu.be/f5Ta_W54GL0" target="_blank">
+<a href="https://youtu.be/5bBx3p3nWok" target="_blank">
   <img src="images/012-1280-zh.png" width="320" alt="视频封面图" />
 </a>
 
