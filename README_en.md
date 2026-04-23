@@ -39,10 +39,10 @@ Run the following command in **PowerShell** to add a Light-Help shortcut to your
 $s=(New-Object -COM WScript.Shell).CreateShortcut("$([Environment]::GetFolderPath('Desktop'))\Light-Help.url"); $s.TargetPath="https://github.com/Cotton059/Light-Help"; $s.Save()
 ```
 ---
-**Lightspeed Sharing Video:** [📺 1-Line Code Backup! Windows App Data Auto-Save & Restore](https://youtu.be/f5Ta_W54GL0)  
+**Lightspeed Sharing Video:** [📺 1-Line Code Backup! Windows App Data Auto-Save & Restore](https://youtu.be/5bBx3p3nWok)  
 *（Support the project, viewer exclusive）*
 
-<a href="https://youtu.be/f5Ta_W54GL0" target="_blank">
+<a href="https://youtu.be/5bBx3p3nWok" target="_blank">
   <img src="images/012-1280-en.png" width="320" alt="视频封面图" />
 </a>
 
