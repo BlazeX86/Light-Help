@@ -39,6 +39,24 @@ Run the following command in **PowerShell** to add a Light-Help shortcut to your
 $s=(New-Object -COM WScript.Shell).CreateShortcut("$([Environment]::GetFolderPath('Desktop'))\Light-Help.url"); $s.TargetPath="https://github.com/Cotton059/Light-Help"; $s.Save()
 ```
 ---
+**Lightspeed Sharing Video:** [📺 1-Line Code Backup! Windows App Data Auto-Save & Restore](https://youtu.be/f5Ta_W54GL0)  
+*（Support the project, viewer exclusive）*
+
+<a href="https://youtu.be/f5Ta_W54GL0" target="_blank">
+  <img src="images/012-1280-en.png" width="320" alt="视频封面图" />
+</a>
+
+## 💻 Quick Start (Windows + X) or Desktop 🔎 Search (PowerShell)
+Run the following command in PowerShell (Admin):
+
+### 💿 App Data Backup/Restore
+> **Tip：** Backs up the entire Users directory, including 🆗AppData🆗Downloads🆗Pictures🆗Documents🆗
+```powershell
+
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/AppBackup_Tool.ps1 | iex
+```
+
+---
 **Lightspeed Sharing Video:**[How to Deep Clean Windows with 1 Line of Code! (No Software Needed)](https://youtu.be/f5Ta_W54GL0)  
 *(Help project, exclusively for viewers)*
 
