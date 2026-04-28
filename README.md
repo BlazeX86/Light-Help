@@ -28,7 +28,7 @@
 
 
 ---
-## 🚀 快速访问工具 (Windows + X)
+## 🚀 快速访问工具 (Windows + X) or 桌面🔎搜索（PowerShell）
 在 **PowerShell** 中运行以下命令，将 Light-Help 仓库一键添加到桌面快捷方式：
 
 ### 🔗 仓库快捷方式
