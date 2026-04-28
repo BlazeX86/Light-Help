@@ -26,11 +26,19 @@
 > 🔗 [访问我的 YouTube 频道](https://www.youtube.com/@光速分享)
 
 
----
-## 🚀 快速访问工具 (Windows + X) or 桌面🔎搜索（PowerShell）
-> **提示：** 点击右侧复制按钮后，在 `PowerShell` 窗口中单击右键（或使用快捷键 `Ctrl + V`）粘贴并运行以下命令。
 
-### 🔗 仓库快捷方式
+---
+
+### 🚀 运行环境与使用指南
+> **全局说明：** 本页面提供的所有脚本代码均通用。请使用以下任意一种方式唤出终端，随后粘贴代码运行：
+>
+> * **方式一（快捷访问）：** 按下键盘组合键 `Windows + X`，在弹出的菜单中选择 `Windows PowerShell`。
+> * **方式二（系统搜索）：** 点击桌面任务栏的 🔎 搜索图标，输入 `PowerShell` 并点击打开。
+> * **方式三（终极方案）：** 使用本页提供的 **🛡️ PowerShell 管理员快捷方式**。
+
+---
+
+### 🔗 仓库Light-help快捷方式
 > **提示：** 此命令将自动识别你的桌面路径（支持 OneDrive 备份目录），生成一个直达本仓库的图标。
 
 ```powershell
@@ -41,7 +49,7 @@ $s=(New-Object -COM WScript.Shell).CreateShortcut("$([Environment]::GetFolderPat
 > **提示：** 此脚本将自动识别你的桌面路径并注入底层提权标志，为你生成一个默认以管理员权限运行的 PowerShell 桌面图标。
 ```powershell
 
-iwr -useb iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Create_AdminPSShortcut_Tool.ps1 | iex | iex
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Create_AdminPSShortcut_Tool.ps1 | iex
 ```
 
 ---
