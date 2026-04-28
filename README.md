@@ -90,11 +90,11 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_
 ```
 
 ---
-**光速分享视频：** [免费家庭影院搭建教程｜无需NAS，一台电脑实现自动海报墙 + 全设备播放](https://youtu.be/EPpgy2S_9lg)  
-*（帮助项目，观看用户专用）*
+**▶️ 光速分享 (YT) 视频教程：** [免费家庭影院搭建教程｜无需NAS，一台电脑实现自动海报墙 + 全设备播放](https://youtu.be/EPpgy2S_9lg)  
+*（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/EPpgy2S_9lg" target="_blank">
-  <img src="https://github.com/user-attachments/assets/0e01384f-1042-4239-b52d-be3b1d7315e4" width="320" alt="视频封面图" />
+  <img src="https://github.com/user-attachments/assets/0e01384f-1042-4239-b52d-be3b1d7315e4" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
 ## 💻 快速开始 (Windows + X)
