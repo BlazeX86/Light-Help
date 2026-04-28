@@ -25,8 +25,6 @@
 >
 > 🔗 [访问我的 YouTube 频道](https://www.youtube.com/@光速分享)
 
-
-
 ---
 
 ### 🚀 运行环境与使用指南
@@ -125,33 +123,21 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/ResetPass.
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/Win1011AutoLogin.ps1 | iex
 ```
 
-
-
 ---
 
-#### 📺 视频教程
-**光速分享视频：** [iPhone照片视频无线传输到Windows无需任何软件](https://youtu.be/USNIBEAcWME)  
-*（帮助项目，观看用户专用）*
+**▶️ 光速分享 (YT) 视频教程：** [iPhone照片视频无线传输到Windows无需任何软件](https://youtu.be/USNIBEAcWME)  
+*（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/USNIBEAcWME" target="_blank">
-  <img src="https://github.com/user-attachments/assets/e3db959e-48e4-4b24-b1f6-6f78ed93e5a1" width="320" alt="视频封面图" />
+  <img src="https://github.com/user-attachments/assets/e3db959e-48e4-4b24-b1f6-6f78ed93e5a1" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
-## 💻 快速开始 (Windows + X)
-在 **PowerShell 管理员模式** 中运行以下命令：
+### 📁 创建共享文件夹与启用 SMB 服务
+> **提示：** 此操作将帮助您快速配置局域网共享环境，自动创建网络共享文件夹并开启系统底层 SMB 服务，实现多设备间的高效访问与互传。
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_Tool.ps1 | iex
 ```
-📝 使用说明
-选择磁盘：根据脚本提示，选择需要作为共享目标的磁盘。
-
-创建文件夹：输入名称并创建你的共享文件夹。
-
-自动配置：脚本会自动为你开启系统的 SMB 服务。
-
-⚠️ 重要提示
-重启电脑：如果是第一次开启 SMB 服务，请在操作完成后重启电脑，以确保服务完全生效。
 
 ---
 
