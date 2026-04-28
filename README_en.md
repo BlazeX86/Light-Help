@@ -26,12 +26,12 @@
 
 ---
 
-### 🚀 运行环境与使用指南
-> **全局说明：** 本页面提供的所有脚本代码均通用。请使用以下任意一种方式唤出终端，随后粘贴代码运行：
+### 🚀 Environment & Usage Guide
+> **Global Note:** All scripts on this page are universal. Launch the terminal using any of the methods below, then paste the code to run:
 >
-> * **方式一（快捷访问）：** 按下键盘组合键 `Windows + X`，在弹出的菜单中选择 `Windows PowerShell`。
-> * **方式二（系统搜索）：** 点击桌面任务栏的 🔎 搜索图标，输入 `PowerShell` 并点击打开。
-> * **方式三（终极方案）：** 使用本页提供的 **🛡️ PowerShell 管理员快捷方式**。
+> * **Method 1 (Quick Access):** Press `Windows + X` and select `Windows PowerShell` from the menu.
+> * **Method 2 (System Search):** Click the 🔎 Search icon on the taskbar, type `PowerShell`, and open it.
+> * **Method 3 (Ultimate Solution):** Use the **🛡️ PowerShell Admin Shortcut** provided on this page.
 
 ---
 
