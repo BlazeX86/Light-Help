@@ -12,10 +12,10 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README_en.md)
 [![zh-cn](https://img.shields.io/badge/lang-zh--cn-blue.svg)](README.md)
 ---
-### 🛡️ 官方使用须知
-> **认准官方：** 致力于协助您轻松完成复杂的 PC 操作，请认准 **光速分享 (YT)** 官方频道。
-> **安全透明：** 核心代码完全公开透明，接受全网监督。运行前欢迎查阅，请放心使用。
-> **专属配套：** 本项目所有脚本均为 **YouTube - 光速分享** 频道视频教程的专属配套资源。
+### 🛡️ Official Guidelines
+> **Official Channel:** Dedicated to simplifying complex PC tasks. Ensure you are following the official **Lightspeed Sharing (YT)** channel.
+> **Secure & Transparent:** Our core code is 100% open-source and open for community review. Feel free to inspect it before running.
+> **Exclusive Resources:** All scripts in this repository are tailor-made companions for video tutorials on the **YouTube - Lightspeed Sharing** channel.
 ---
 
 
