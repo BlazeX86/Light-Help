@@ -97,8 +97,8 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_
   <img src="https://github.com/user-attachments/assets/0e01384f-1042-4239-b52d-be3b1d7315e4" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
-## 💻 快速开始 (Windows + X)
-在 **PowerShell 管理员模式** 中运行以下命令：创建共享文件夹,启用SMB服务
+### 📁 创建共享文件夹与启用 SMB 服务
+> **提示：** 此操作将帮助您快速配置局域网共享环境，自动创建网络共享文件夹并开启系统底层 SMB 服务，实现多设备间的高效访问与互传。
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_Tool.ps1 | iex
