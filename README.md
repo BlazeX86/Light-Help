@@ -53,15 +53,12 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 ```
 
 ---
-**光速分享（YT）视频：** [📺 一行代码搞定！Windows 软件数据一键备份与恢复](https://youtu.be/5bBx3p3nWok)  
-*（帮助项目，观看用户专用）*
+**▶️ 光速分享 (YT) 视频教程：** [一行代码搞定！Windows 软件数据一键备份与恢复](https://youtu.be/5bBx3p3nWok)  
+*（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/5bBx3p3nWok" target="_blank">
-  <img src="images/012-1280-zh.png" width="320" alt="视频封面图" />
+  <img src="images/012-1280-zh.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
-
-## 💻 快速开始 (Windows + X) or 桌面🔎搜索（PowerShell）
-在 **PowerShell 管理员模式** 中运行以下命令：
 
 ### 💿 软件数据备份/恢复
 > **提示：** 将备份整个Users目录，包含🆗AppData🆗下载🆗图片🆗文档🆗
