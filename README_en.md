@@ -8,161 +8,158 @@
 </div>
 
 ---
-# Select Language
+### 🌐 Select Language
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README_en.md)
 [![zh-cn](https://img.shields.io/badge/lang-zh--cn-blue.svg)](README.md)
 ---
-# 🚀 Lightspeed Sharing (Light-Help)
-### Helping viewers remotely complete complex PC operations. Please look for the official Lightspeed Sharing channel.
-
-### Please review the code at the top of the project before running. It is open, transparent, and subject to public scrutiny, so you can use it with confidence.
-### This project's scripts are exclusively for use with YouTube Lightspeed Sharing videos.
+### 🛡️ 官方使用须知
+> **认准官方：** 致力于协助您轻松完成复杂的 PC 操作，请认准 **光速分享 (YT)** 官方频道。
+> **安全透明：** 核心代码完全公开透明，接受全网监督。运行前欢迎查阅，请放心使用。
+> **专属配套：** 本项目所有脚本均为 **YouTube - 光速分享** 频道视频教程的专属配套资源。
 ---
 
 
-### 🙋‍♂️ Help Shape This Channel
-> **Please subscribe to Lightspeed Sharing (YT)**
-> **💡 Community Perks:** Unlock the power to vote in my community posts or submit custom service requests. Let everything here be decided by you!
+### 🙋‍♂️ 参与频道共建
+> **请订阅光速分享（YT）**
+> **💡 社区互动：** 即可在我的社区帖中投票 / 自定义服务需求，让这里的一切由你书写。
 >
-> 🔗 [Visit my YouTube Channel](https://www.youtube.com/@光速分享)
-
+> 🔗 [访问我的 YouTube 频道](https://www.youtube.com/@光速分享)
 
 ---
 
-## 🚀 Quick Access Tool (Windows + X)
-Run the following command in **PowerShell** to add a Light-Help shortcut to your desktop with one click:
+### 🚀 运行环境与使用指南
+> **全局说明：** 本页面提供的所有脚本代码均通用。请使用以下任意一种方式唤出终端，随后粘贴代码运行：
+>
+> * **方式一（快捷访问）：** 按下键盘组合键 `Windows + X`，在弹出的菜单中选择 `Windows PowerShell`。
+> * **方式二（系统搜索）：** 点击桌面任务栏的 🔎 搜索图标，输入 `PowerShell` 并点击打开。
+> * **方式三（终极方案）：** 使用本页提供的 **🛡️ PowerShell 管理员快捷方式**。
 
-### 🔗 Repository Shortcut
-> **Note:** This command automatically detects your desktop path (supports OneDrive folders) and creates an icon for instant access to this repository.
+---
+
+### 🔗 仓库Light-help快捷方式
+> **提示：** 此命令将自动识别你的桌面路径（支持 OneDrive 备份目录），生成一个直达本仓库的图标。
 
 ```powershell
 $s=(New-Object -COM WScript.Shell).CreateShortcut("$([Environment]::GetFolderPath('Desktop'))\Light-Help.url"); $s.TargetPath="https://github.com/Cotton059/Light-Help"; $s.Save()
 ```
+
+### 🛡️ PowerShell 创建管理员快捷方式
+> **提示：** 此脚本将自动识别你的桌面路径并注入底层提权标志，为你生成一个默认以管理员权限运行的 PowerShell 桌面图标。
+```powershell
+
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Create_AdminPSShortcut_Tool.ps1 | iex
+```
+
 ---
-**Lightspeed Sharing Video:** [📺 1-Line Code Backup! Windows App Data Auto-Save & Restore](https://youtu.be/5bBx3p3nWok)  
-*（Support the project, viewer exclusive）*
+**▶️ 光速分享 (YT) 视频教程：** [一行代码搞定！Windows 软件数据一键备份与恢复](https://youtu.be/5bBx3p3nWok)  
+*（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/5bBx3p3nWok" target="_blank">
-  <img src="images/012-1280-en.png" width="320" alt="视频封面图" />
+  <img src="images/012-1280-en.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
-## 💻 Quick Start (Windows + X) or Desktop 🔎 Search (PowerShell)
-Run the following command in PowerShell (Admin):
-
-### 💿 App Data Backup/Restore
-> **Tip：** Backs up the entire Users directory, including 🆗AppData🆗Downloads🆗Pictures🆗Documents🆗
+### 💿 软件数据备份/恢复
+> **提示：** 将备份整个Users目录，包含🆗AppData🆗下载🆗图片🆗文档🆗
 ```powershell
 
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/AppBackup_Tool.ps1 | iex
 ```
 
+
 ---
-**Lightspeed Sharing Video:**[How to Deep Clean Windows with 1 Line of Code! (No Software Needed)](https://youtu.be/f5Ta_W54GL0)  
-*(Help project, exclusively for viewers)*
+**▶️ 光速分享 (YT) 视频教程：** [一行代码深度清理 Windows！无需安装软件，一键释放巨量系统空间](https://youtu.be/f5Ta_W54GL0)  
+*（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/f5Ta_W54GL0" target="_blank">
-  <img src="https://github.com/user-attachments/assets/33502f93-49fd-4cfc-a3c4-2611f2bd0b4f" width="320" alt="视频封面图" />
+  <img src="images/011-1280-en.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
-
-## 💻 Quick Start (Windows + X)
-Run the following command in **PowerShell Administrator Mode**:Run Light-Help 1-Click Cleanup Command
-### ☢️ Extreme Edition
-> **WARNING:** Clears all user-level caches. Cloud-based apps may require a full local re-sync.
-
+### ☢️ 极致清理版
+> **警告：** 清空所有用户级缓存，可能导致部分云服务软件需要重新同步到本地
 ```powershell
+
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_Tool.ps1 | iex
 ```
-### 🛡️ v8.0 Balanced Edition
-> **NOTE:** Reclaims space with smart data isolation. Ideal if you prefer stability over "Geek-style" minimalism.
+### 🛡️ v8.0 平衡保护版
+> **提示：** 在释放空间的同时，提供智能数据隔离保护，如果您不喜欢极客风格，可以使用它
 ```powershell
 
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_v8.0_Tool.ps1 | iex
 ```
 
 ---
-**Lightspeed Sharing Video:**[Build a Pro Home Theater Without a NAS! Auto-Posters & Streaming on Any Device](https://youtu.be/EPpgy2S_9lg)  
-*(Help project, exclusively for viewers)*
+**▶️ 光速分享 (YT) 视频教程：** [免费家庭影院搭建教程｜无需NAS，一台电脑实现自动海报墙 + 全设备播放](https://youtu.be/EPpgy2S_9lg)  
+*（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/EPpgy2S_9lg" target="_blank">
-  <img src="https://github.com/user-attachments/assets/ac237aef-5700-4b87-a8a4-ab16a8c7391e" width="320" alt="视频封面图" />
+  <img src="images/009-1280-en.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
-
-## 💻 Quick Start (Windows + X)
-Run the following command in **PowerShell Administrator Mode**:Create a shared folder and toggle on SMB
+### 📁 创建共享文件夹与启用 SMB 服务
+> **提示：** 此操作将帮助您快速配置局域网共享环境，自动创建网络共享文件夹并开启系统底层 SMB 服务，实现多设备间的高效访问与互传。
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_Tool.ps1 | iex
 ```
 
-## 💻 Quick Start (Windows + X)
-Run the following command in **PowerShell Administrator Mode**:Grab your username and local IP address
+### 📡 获取系统用户名与内网 IP
+> **提示：** 一键提取当前系统的登录用户名与局域网 IPv4 地址，为您进行远程桌面连接、局域网共享或网络调试提供关键参数。
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/GetInfo.ps1 | iex
 ```
 
-## 💻 Quick Start (Windows + X)
-Run the following command in **PowerShell Administrator Mode**:Set a system password (if you don't have one)
+### 🔑 强制修改或创建电脑密码
+> **提示：** 绕过繁琐的系统设置层级，通过命令直接为您的本地账户快速重置，或创建全新的安全登录密码。
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/ResetPass.ps1 | iex
 ```
 
-## 💻 Quick Start (Windows + X)
-Run the following command in **PowerShell Administrator Mode**:Configure auto-login for a seamless boot experience
+### 🔓 设置开机自动登录（免密）
+> **提示：** 自动配置底层登录凭据，实现电脑开机跳过锁屏密码界面直接进入桌面，大幅提升个人专属设备的启动效率。
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/Win1011AutoLogin.ps1 | iex
 ```
+
 ---
-#### 📺 Video Tutorial
-**Lightspeed Sharing Video:** [Wireless transfer of iPhone photos and videos to Windows without any software](https://youtu.be/USNIBEAcWME)  
-*(Help project, exclusively for viewers)*
+
+**▶️ 光速分享 (YT) 视频教程：** [iPhone照片视频无线传输到Windows无需任何软件](https://youtu.be/USNIBEAcWME)  
+*（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/USNIBEAcWME" target="_blank">
-  <img src="https://github.com/user-attachments/assets/e3db959e-48e4-4b24-b1f6-6f78ed93e5a1" width="320" alt="Video Cover" />
+  <img src="images/007-1280-en.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
-## 💻 Quick Start (Windows + X)
-Run the following command in **PowerShell Administrator Mode**:
+### 📁 创建共享文件夹与启用 SMB 服务
+> **提示：** 此操作将帮助您快速配置局域网共享环境，自动创建网络共享文件夹并开启系统底层 SMB 服务，实现多设备间的高效访问与互传。
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_Tool.ps1 | iex
 ```
 
-📝 Instructions
-Select Disk: Follow the script prompts to select the disk you want to use as the share target.
-
-Create Folder: Enter a name and create your shared folder.
-
-Automatic Configuration: The script will automatically enable the system's SMB service for you.
-
-⚠️ Important Note
-Restart Computer: If this is the first time enabling the SMB service, please restart your computer after the operation is complete to ensure the service takes full effect.
-
 ---
 
-## ⚖️ License & Copyright
 
-### 1. Core License
-This project is open-source under the **[GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html)**.
+## ⚖️ 开源协议与版权声明 (License & Copyright)
 
-- **User-Friendly**: You are free to run, study, share, and modify this software.
-- **Copyleft (Mandatory Open Source)**: If you modify and distribute the code from this project, your modifications must also be open-sourced under the GPL-3.0 license. This ensures that this project and its derivatives will remain permanently free and transparent, preventing them from being closed-source or commercialized.
+### 1. 核心协议
+本项目采用 **[GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html)** 协议开源。
 
-### 2. Third-Party Code Compliance
-To ensure functional completeness, this project may contain third-party open-source code (typically stored in the `ThirdParty/` directory).
-- This project strictly complies with the original authors' open-source licenses.
-- **All external code completely retains the original authors' attribution, copyright notices, and original licenses.**
+- **对用户友好**：您可以自由地运行、学习、共享和修改本软件。
+- **强制开源（传染性）**：如果您修改了本项目代码并进行分发，则您的修改部分也必须以 GPL-3.0 协议开源，这确保了本项目及其衍生工具将永久保持免费与透明，防止被闭源商业化。
 
-### 3. Originality Statement & Developer Signature
-The developer reserves the copyright for all independently written scripts and core logic within this project. Under the GPL-3.0 framework, please recognize the official signature:
+### 2. 外部代码合规性 (Third-Party Code)
+为了项目的功能完整性，本项目可能包含部分第三方开源代码（通常存放于 `ThirdParty/` 目录下）。
+- 本项目严格遵守原作者的开源许可。
+- **所有外部代码均完整保留了原作者的署名、版权声明及原始协议。**
+
+### 3. 原创声明与开发者签名
+对于本项目中的所有自主编写的脚本及核心逻辑，开发者保留其版权。在 GPL-3.0 框架下，请认准官方署名：
 
 > **Author:** Lightspeed Sharing (YT) | **Project:** Cotton059/Light-Help  
 > **Developer:** Lightspeed Sharing (YT) | **Project:** Light-Help (GitHub)
 
 ---
 
----
