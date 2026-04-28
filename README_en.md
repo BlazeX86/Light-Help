@@ -18,12 +18,11 @@
 > **Exclusive Resources:** All scripts in this repository are tailor-made companions for video tutorials on the **YouTube - Lightspeed Sharing** channel.
 ---
 
-
-### 🙋‍♂️ 参与频道共建
-> **请订阅光速分享（YT）**
-> **💡 社区互动：** 即可在我的社区帖中投票 / 自定义服务需求，让这里的一切由你书写。
+### 🙋‍♂️ Co-Create the Channel
+> **Subscribe to Lightspeed Sharing (YT)**
+> **💡 Community Engagement:** Vote in community posts or request custom services. Let your needs shape this space.
 >
-> 🔗 [访问我的 YouTube 频道](https://www.youtube.com/@光速分享)
+> 🔗 [Visit My YouTube Channel](https://www.youtube.com/@光速分享)
 
 ---
 
