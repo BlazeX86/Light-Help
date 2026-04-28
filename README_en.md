@@ -87,36 +87,36 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_
 ```
 
 ---
-**▶️ 光速分享 (YT) 视频教程：** [免费家庭影院搭建教程｜无需NAS，一台电脑实现自动海报墙 + 全设备播放](https://youtu.be/EPpgy2S_9lg)  
-*（专属帮助项目，观看用户专用）*
+**▶️ Lightspeed Sharing (YT) Video Tutorial:** [Free Home Theater Setup | No NAS Needed, Auto Poster Wall & Multi-Device Playback on One PC](https://youtu.be/EPpgy2S_9lg)  
+*(Exclusive companion project for viewers)*
 
 <a href="https://youtu.be/EPpgy2S_9lg" target="_blank">
   <img src="images/009-1280-en.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
-### 📁 创建共享文件夹与启用 SMB 服务
-> **提示：** 此操作将帮助您快速配置局域网共享环境，自动创建网络共享文件夹并开启系统底层 SMB 服务，实现多设备间的高效访问与互传。
+### 📁 Create Shared Folder & Enable SMB Service
+> **Tip:** Quickly configure your LAN sharing environment. This auto-creates a network shared folder and enables low-level SMB services for efficient cross-device access and file transfer.
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_Tool.ps1 | iex
 ```
 
-### 📡 获取系统用户名与内网 IP
-> **提示：** 一键提取当前系统的登录用户名与局域网 IPv4 地址，为您进行远程桌面连接、局域网共享或网络调试提供关键参数。
+### 📡 Get System Username & Local IP
+> **Tip:** 1-click extract your current login username and LAN IPv4 address, providing key parameters for Remote Desktop, LAN sharing, or network debugging.
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/GetInfo.ps1 | iex
 ```
 
-### 🔑 强制修改或创建电脑密码
-> **提示：** 绕过繁琐的系统设置层级，通过命令直接为您的本地账户快速重置，或创建全新的安全登录密码。
+### 🔑 Force Change or Create PC Password
+> **Tip:** Bypass tedious system settings. Use commands to quickly reset or create a brand-new secure login password for your local account directly.
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/ResetPass.ps1 | iex
 ```
 
-### 🔓 设置开机自动登录（免密）
-> **提示：** 自动配置底层登录凭据，实现电脑开机跳过锁屏密码界面直接进入桌面，大幅提升个人专属设备的启动效率。
+### 🔓 Set Auto-Login (Passwordless)
+> **Tip:** Auto-configure low-level login credentials to skip the lock screen and boot directly to the desktop, greatly boosting startup efficiency for personal devices.
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/Win1011AutoLogin.ps1 | iex
@@ -124,15 +124,15 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/Win1011Aut
 
 ---
 
-**▶️ 光速分享 (YT) 视频教程：** [iPhone照片视频无线传输到Windows无需任何软件](https://youtu.be/USNIBEAcWME)  
-*（专属帮助项目，观看用户专用）*
+**▶️ Lightspeed Sharing (YT) Video Tutorial:** [Wirelessly Transfer iPhone Photos & Videos to Windows Without Any Software](https://youtu.be/USNIBEAcWME)  
+*(Exclusive companion project for viewers)*
 
 <a href="https://youtu.be/USNIBEAcWME" target="_blank">
   <img src="images/007-1280-en.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
-### 📁 创建共享文件夹与启用 SMB 服务
-> **提示：** 此操作将帮助您快速配置局域网共享环境，自动创建网络共享文件夹并开启系统底层 SMB 服务，实现多设备间的高效访问与互传。
+### 📁 Create Shared Folder & Enable SMB Service
+> **Tip:** Quickly configure your LAN sharing environment. This auto-creates a network shared folder and enables low-level SMB services for efficient cross-device access and file transfer.
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_Tool.ps1 | iex
