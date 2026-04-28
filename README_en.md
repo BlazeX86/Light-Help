@@ -35,8 +35,8 @@
 
 ---
 
-### 🔗 仓库Light-help快捷方式
-> **提示：** 此命令将自动识别你的桌面路径（支持 OneDrive 备份目录），生成一个直达本仓库的图标。
+### 🔗 Light-Help Repo Shortcut
+> **Tip:** This command auto-detects your desktop path (including OneDrive backups) and creates a direct shortcut to this repository.
 
 ```powershell
 $s=(New-Object -COM WScript.Shell).CreateShortcut("$([Environment]::GetFolderPath('Desktop'))\Light-Help.url"); $s.TargetPath="https://github.com/Cotton059/Light-Help"; $s.Save()
