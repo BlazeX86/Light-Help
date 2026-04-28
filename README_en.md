@@ -57,8 +57,8 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
   <img src="images/012-1280-en.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
-### 💿 软件数据备份/恢复
-> **提示：** 将备份整个Users目录，包含🆗AppData🆗下载🆗图片🆗文档🆗
+### 💿 App Data Backup/Restore
+> **Tip:** Backs up the entire Users directory, including 🆗AppData🆗Downloads🆗Pictures🆗Documents🆗
 ```powershell
 
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/AppBackup_Tool.ps1 | iex
@@ -66,21 +66,21 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/AppBackup_
 
 
 ---
-**▶️ 光速分享 (YT) 视频教程：** [一行代码深度清理 Windows！无需安装软件，一键释放巨量系统空间](https://youtu.be/f5Ta_W54GL0)  
-*（专属帮助项目，观看用户专用）*
+**▶️ Lightspeed Sharing (YT) Video Tutorial:** [One-Line Deep Windows Cleanup! No Software Needed, Free Up Massive Space](https://youtu.be/f5Ta_W54GL0)  
+*(Exclusive companion project for viewers)*
 
 <a href="https://youtu.be/f5Ta_W54GL0" target="_blank">
   <img src="images/011-1280-en.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
-### ☢️ 极致清理版
-> **警告：** 清空所有用户级缓存，可能导致部分云服务软件需要重新同步到本地
+### ☢️ Extreme Cleanup Edition
+> **Warning:** Clears all user-level caches. Some cloud services may need to re-sync locally.
 ```powershell
 
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_Tool.ps1 | iex
 ```
-### 🛡️ v8.0 平衡保护版
-> **提示：** 在释放空间的同时，提供智能数据隔离保护，如果您不喜欢极客风格，可以使用它
+### 🛡️ v8.0 Balanced Protection Edition
+> **Tip:** Frees up space while offering smart data isolation protection. Use this if you prefer a non-geek style.
 ```powershell
 
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_v8.0_Tool.ps1 | iex
