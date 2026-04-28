@@ -104,22 +104,22 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_Tool.ps1 | iex
 ```
 
-## 💻 快速开始 (Windows + X)
-在 **PowerShell ** 中运行以下命令：获取用户名和内网IP
+### 📡 获取系统用户名与内网 IP
+> **提示：** 一键提取当前系统的登录用户名与局域网 IPv4 地址，为您进行远程桌面连接、局域网共享或网络调试提供关键参数。
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/GetInfo.ps1 | iex
 ```
 
-## 💻 快速开始 (Windows + X)
-在 **PowerShell 管理员模式** 中运行以下命令：强制修改电脑的密码或创建密码
+### 🔑 强制修改或创建电脑密码
+> **提示：** 绕过繁琐的系统设置层级，通过命令直接为您的本地账户快速重置，或创建全新的安全登录密码。
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/ResetPass.ps1 | iex
 ```
 
-## 💻 快速开始 (Windows + X)
-在 **PowerShell 管理员模式** 中运行以下命令：设置开机自动登录,无需输入密码
+### 🔓 设置开机自动登录（免密）
+> **提示：** 自动配置底层登录凭据，实现电脑开机跳过锁屏密码界面直接进入桌面，大幅提升个人专属设备的启动效率。
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/Win1011AutoLogin.ps1 | iex
