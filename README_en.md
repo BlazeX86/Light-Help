@@ -50,8 +50,8 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 ```
 
 ---
-**▶️ 光速分享 (YT) 视频教程：** [一行代码搞定！Windows 软件数据一键备份与恢复](https://youtu.be/5bBx3p3nWok)  
-*（专属帮助项目，观看用户专用）*
+**▶️ Lightspeed Sharing (YT) Video Tutorial:** [One Line of Code! Windows App Data 1-Click Backup & Restore](https://youtu.be/5bBx3p3nWok)  
+*(Exclusive companion project for viewers)*
 
 <a href="https://youtu.be/5bBx3p3nWok" target="_blank">
   <img src="images/012-1280-en.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
