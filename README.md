@@ -69,15 +69,12 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/AppBackup_
 
 
 ---
-**光速分享视频：** [一行代码深度清理 Windows！无需安装软件，一键释放巨量系统空间](https://youtu.be/f5Ta_W54GL0)  
-*（帮助项目，观看用户专用）*
+**▶️ 光速分享 (YT) 视频教程：** [一行代码深度清理 Windows！无需安装软件，一键释放巨量系统空间](https://youtu.be/f5Ta_W54GL0)  
+*（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/f5Ta_W54GL0" target="_blank">
-  <img src="https://github.com/user-attachments/assets/0f8dfba7-0979-4405-9e84-a432d2ec9257" width="320" alt="视频封面图" />
+  <img src="https://github.com/user-attachments/assets/0f8dfba7-0979-4405-9e84-a432d2ec9257" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
-
-## 💻 快速开始 (Windows + X)
-在 **PowerShell 管理员模式** 中运行以下命令：运行Light-Help,一键清理命令
 
 ### ☢️ 极致清理版
 > **警告：** 清空所有用户级缓存，可能导致部分云服务软件需要重新同步到本地
