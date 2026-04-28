@@ -140,25 +140,23 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_
 
 ---
 
+## ⚖️ License & Copyright
 
-## ⚖️ 开源协议与版权声明 (License & Copyright)
+### 1. Core License
+This project is open-sourced under the **[GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html)**.
 
-### 1. 核心协议
-本项目采用 **[GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html)** 协议开源。
+- **User-Friendly:** You are free to run, study, share, and modify this software.
+- **Copyleft (Mandatory Open Source):** If you modify and distribute this code, your modifications must also be open-sourced under GPL-3.0. This ensures the project and its derivatives remain permanently free and transparent, preventing closed-source commercialization.
 
-- **对用户友好**：您可以自由地运行、学习、共享和修改本软件。
-- **强制开源（传染性）**：如果您修改了本项目代码并进行分发，则您的修改部分也必须以 GPL-3.0 协议开源，这确保了本项目及其衍生工具将永久保持免费与透明，防止被闭源商业化。
+### 2. Third-Party Code Compliance
+For functional completeness, this project may include third-party open-source code (typically stored in the `ThirdParty/` directory).
+- This project strictly complies with the original authors' open-source licenses.
+- **All external code fully retains the original authors' attribution, copyright notices, and original licenses.**
 
-### 2. 外部代码合规性 (Third-Party Code)
-为了项目的功能完整性，本项目可能包含部分第三方开源代码（通常存放于 `ThirdParty/` 目录下）。
-- 本项目严格遵守原作者的开源许可。
-- **所有外部代码均完整保留了原作者的署名、版权声明及原始协议。**
-
-### 3. 原创声明与开发者签名
-对于本项目中的所有自主编写的脚本及核心逻辑，开发者保留其版权。在 GPL-3.0 框架下，请认准官方署名：
+### 3. Originality Statement & Developer Signature
+The developer retains copyright for all self-written scripts and core logic in this project. Under the GPL-3.0 framework, please recognize the official signature:
 
 > **Author:** Lightspeed Sharing (YT) | **Project:** Cotton059/Light-Help  
 > **Developer:** Lightspeed Sharing (YT) | **Project:** Light-Help (GitHub)
 
----
 
