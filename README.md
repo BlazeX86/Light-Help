@@ -129,7 +129,7 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/Win1011Aut
 *（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/USNIBEAcWME" target="_blank">
-  <img src="https://github.com/user-attachments/assets/e3db959e-48e4-4b24-b1f6-6f78ed93e5a1" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
+  <img src="images/007-1280-zh.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
 ### 📁 创建共享文件夹与启用 SMB 服务
