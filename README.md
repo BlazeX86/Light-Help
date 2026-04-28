@@ -37,6 +37,14 @@
 ```powershell
 $s=(New-Object -COM WScript.Shell).CreateShortcut("$([Environment]::GetFolderPath('Desktop'))\Light-Help.url"); $s.TargetPath="https://github.com/Cotton059/Light-Help"; $s.Save()
 ```
+
+### 🛡️ PowerShell 创建管理员快捷方式
+> **提示：** 此脚本将自动识别你的桌面路径并注入底层提权标志，为你生成一个默认以管理员权限运行的 PowerShell 桌面图标。
+```powershell
+
+iwr -useb iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Create_AdminPSShortcut_Tool.ps1 | iex | iex
+```
+
 ---
 **光速分享（YT）视频：** [📺 一行代码搞定！Windows 软件数据一键备份与恢复](https://youtu.be/5bBx3p3nWok)  
 *（帮助项目，观看用户专用）*
