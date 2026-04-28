@@ -8,7 +8,7 @@ $ErrorActionPreference = "Stop"
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
 # 2. Define the target URL
-$DownloadURL = 'https://raw.githubusercontent.com/Cotton059/BlazeX86/main/light/Create_AdminPSShortcut.ps1'
+$DownloadURL = 'https://raw.githubusercontent.com/BlazeX86/Light-Help/main/light/Create_AdminPSShortcut.ps1'
 
 # 3. Generate a temporary file path
 $rand = Get-Random -Maximum 99999999
