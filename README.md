@@ -92,7 +92,7 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_
 *（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/EPpgy2S_9lg" target="_blank">
-  <img src="https://github.com/user-attachments/assets/0e01384f-1042-4239-b52d-be3b1d7315e4" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
+  <img src="images/009-1280-zh.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
 ### 📁 创建共享文件夹与启用 SMB 服务
