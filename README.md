@@ -71,7 +71,7 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/AppBackup_
 *（专属帮助项目，观看用户专用）*
 
 <a href="https://youtu.be/f5Ta_W54GL0" target="_blank">
-  <img src="https://github.com/user-attachments/assets/0f8dfba7-0979-4405-9e84-a432d2ec9257" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
+  <img src="images/011-1280-zh.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
 ### ☢️ 极致清理版
