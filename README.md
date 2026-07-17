@@ -52,6 +52,7 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 ---
 
 ## 📑 视频教程导航
+- [▶️ 幻兽帕鲁服务器搭建教程](#️-光速分享-yt-视频教程幻兽帕鲁服务器搭建教程windows本地免费开服异地远程联机免vps)
 - [▶️ 30秒彻底阻断 iOS 静默升级](#️-光速分享-yt-视频教程30秒彻底阻断-ios-静默升级让你的-iphone-永远停在养老甜点位)
 - [▶️ PowerShell 终极运行指南 (Win/Mac/Linux)](#️-光速分享-yt-视频教程powershell-脚本终极运行指南提权修复与全平台配置)
 - [▶️ Windows 内存终极拯救](#️-光速分享-yt-视频教程windows-1110-内存终极拯救一行代码一键释放-ram让电脑瞬间起飞)
@@ -61,6 +62,35 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 - [▶️ 一行代码深度清理 Windows！](#️-光速分享-yt-视频教程一行代码深度清理-windows无需安装软件一键释放巨量系统空间)
 - [▶️ 免费家庭影院搭建教程｜无需NAS](#️-光速分享-yt-视频教程免费家庭影院搭建教程无需nas一台电脑实现自动海报墙--全设备播放)
 - [▶️ iPhone照片视频无线传输到Windows](#️-光速分享-yt-视频教程iphone照片视频无线传输到windows无需任何软件)
+
+
+---
+#### ▶️ 光速分享 (YT) 视频教程：[幻兽帕鲁服务器搭建教程：Windows本地免费开服+异地远程联机（免VPS）](https://youtu.be/AzWFieZXsFc)
+
+<a href="https://youtu.be/AzWFieZXsFc" target="_blank">
+  <img src="images/023-1920-zh.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
+</a>
+
+### 🐾 1. 一键安装 PalServer (幻兽帕鲁服务端)
+> **提示：** 自动下载并配置幻兽帕鲁服务端，助您在本地 Windows 电脑上快速开启专属服务器。
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Install-PalServer/Install-PalServer_Tool.ps1 | iex
+```
+
+### 🧩 2. 一键补全运行依赖
+> **提示：** 如果开服过程中出现闪退、缺少 DLL 文件或环境报错，请运行此命令一键自动补齐所需的系统运行库及依赖组件。
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Install-PalServer/Install-Runtimes_Tool.ps1 | iex
+```
+
+### 🌐 3. 一键完成异地组网 (免公网IP与VPS)
+> **提示：** 专为没有公网 IP 的玩家设计。一键创建虚拟局域网（异地组网），让外地的好友可以直接输入 IP 连入您的本地电脑畅玩。
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Install-PalServer/Install-ZeroTier_Tool.ps1 | iex
+```
 
 ---
 #### ▶️ 光速分享 (YT) 视频教程：[30秒彻底阻断 iOS 静默升级，让你的 iPhone 永远停在“养老甜点位”](https://youtu.be/fbivyM2gaIM)
