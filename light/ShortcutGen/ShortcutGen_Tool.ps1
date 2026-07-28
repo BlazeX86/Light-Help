@@ -30,6 +30,9 @@ catch {
     Write-Host "[!] The script will stop to prevent crash." -ForegroundColor Yellow
 }
 finally {
-    Write-Host "`n[*] Task Finished. Press any key to exit..." -ForegroundColor Cyan
-    $null = [Console]::ReadKey($true)
+	Write-Host "`n[*] Done! Press 'Y' for YT: Lightspeed Sharing, or any other key to exit..." -ForegroundColor Magenta -NoNewline
+    $key = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown").Character
+    if ($key -match 'y|Y') {
+    Start-Process "https://www.youtube.com/channel/UCz1AlF-BnyirJqrmN78mk5Q"
+}
 }
