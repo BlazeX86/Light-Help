@@ -1,6 +1,10 @@
+if($PSCommandPath){Write-Host "Unknown error [103386]. Please visit the official homepage to run it online." -f Red; Start-Process "https://github.com/Cotton059/Light-Help"; exit}
+
 $ErrorActionPreference = "Stop"
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
+
+if($PSCommandPath){exit}
 
 $DownloadURL = 'https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/ShortcutGen/ShortcutGen.ps1'
 
