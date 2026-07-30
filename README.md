@@ -31,9 +31,10 @@
 >
 > * **方式一（快捷访问）：** 按下键盘组合键 `Windows + X`，在弹出的菜单中选择 `Windows PowerShell`。
 > * **方式二（系统搜索）：** 点击桌面任务栏的 🔎 搜索图标，输入 `PowerShell` 并点击打开。
-> * **方式三（终极方案）：** 使用本页提供的 **🛡️ PowerShell 管理员快捷方式**。
+> * **方式三（专业方案）：** 使用本页提供的 **🛡️ PowerShell 管理员快捷方式**。
+> * **方式四（桌面应用）：** 直接将一键代码转化为 **🖥️ 桌面图标**。
 > 
-> **教程链接：** 🔗[YouTube 视频教程](https://youtu.be/q_gJc6e8tK0) | 🔗[Bilibili 视频教程](https://www.bilibili.com/video/BV1iXVA6rEdn/)
+> **教程链接：** 🔗[运行环境](https://youtu.be/q_gJc6e8tK0) | 🔗[桌面应用](https://youtu.be/d25it0peYKk)
 ---
 
 ### 🔗 仓库Light-help快捷方式
@@ -52,6 +53,7 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 ---
 
 ## 📑 视频教程导航
+- [▶️ 1秒把脚本变成桌面工具](#️-光速分享-yt-视频教程windows-神仙玩法免安装运行github开源项目1秒把脚本变成桌面工具)
 - [▶️ 幻兽帕鲁服务器搭建教程](#️-光速分享-yt-视频教程幻兽帕鲁服务器搭建教程windows本地免费开服异地远程联机免vps)
 - [▶️ 30秒彻底阻断 iOS 静默升级](#️-光速分享-yt-视频教程30秒彻底阻断-ios-静默升级让你的-iphone-永远停在养老甜点位)
 - [▶️ PowerShell 终极运行指南 (Win/Mac/Linux)](#️-光速分享-yt-视频教程powershell-脚本终极运行指南提权修复与全平台配置)
@@ -63,7 +65,19 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 - [▶️ 免费家庭影院搭建教程｜无需NAS](#️-光速分享-yt-视频教程免费家庭影院搭建教程无需nas一台电脑实现自动海报墙--全设备播放)
 - [▶️ iPhone照片视频无线传输到Windows](#️-光速分享-yt-视频教程iphone照片视频无线传输到windows无需任何软件)
 
+---
+#### ▶️ 光速分享 (YT) 视频教程：[Windows 神仙玩法：免安装运行GitHub开源项目，1秒把脚本变成桌面工具！](https://youtu.be/d25it0peYKk)
 
+<a href="https://youtu.be/d25it0peYKk" target="_blank">
+  <img src="images/025-1920-tw.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
+</a>
+
+### 🐾 一键运行 Shortcut Generator (快捷方式生成器)
+> **提示：** 运行快捷方式生成工具，只需输入任意 GitHub 脚本的单行运行命令，即可在桌面一键生成带有管理员权限的快捷方式，实现免安装直接运行。
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/ShortcutGen/ShortcutGen_Tool.ps1 | iex
+```
 ---
 #### ▶️ 光速分享 (YT) 视频教程：[幻兽帕鲁服务器搭建教程：Windows本地免费开服+异地远程联机（免VPS）](https://youtu.be/AzWFieZXsFc)
 
