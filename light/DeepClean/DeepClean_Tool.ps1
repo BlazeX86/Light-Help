@@ -1,5 +1,5 @@
 # ============================================================
-# DeepClean_v8.0 Engine Loader V8 - Final Stable Version
+# DeepClean Engine Loader V7 - Final Stable Version
 # ============================================================
 
 $ErrorActionPreference = "Stop"
@@ -8,14 +8,14 @@ $ErrorActionPreference = "Stop"
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
 # 2. Define the target URL
-$DownloadURL = 'https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_v8.0.ps1'
+$DownloadURL = 'https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/DeepClean/DeepClean.ps1'
 
 # 3. Generate a temporary file path
 $rand = Get-Random -Maximum 99999999
 $isAdmin = [bool]([Security.Principal.WindowsIdentity]::GetCurrent().Groups -match 'S-1-5-32-544')
-$FilePath = if ($isAdmin) { "$env:SystemRoot\Temp\DeepClean_v8.0_$rand.ps1" } else { "$env:TEMP\DeepClean_v8.0_$rand.ps1" }
+$FilePath = if ($isAdmin) { "$env:SystemRoot\Temp\DeepClean_$rand.ps1" } else { "$env:TEMP\DeepClean_$rand.ps1" }
 
-Write-Host "[*] Launching DeepClean_v8.0 Engine..." -ForegroundColor Cyan
+Write-Host "[*] Launching DeepClean Engine..." -ForegroundColor Cyan
 
 try {
     # 4. Perform the download
