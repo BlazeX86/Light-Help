@@ -83,8 +83,7 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/DeepCleanPRO/DeepCleanPRO_Desktop.ps1 | iex
 ```
-### 🐾 单次执行 DeepCleanPRO（桌面启动失败请使用这个）
-> **提示：** 一些电脑环境过度敏感，不允许用户从桌面上执行代码，可以尝试这个一键代码，它是老旧版本，但适应环境更广，只能手动单次执行。
+> **备用代码：** 若系统安全限制导致桌面快捷方式运行失败，请尝试使用此备用代码。该版本具有更广的环境兼容性，每次清理时均需手动复制执行此命令。
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/DeepCleanPRO/DeepCleanPRO_Tool.ps1 | iex
 ```
