@@ -83,6 +83,12 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/DeepCleanPRO/DeepCleanPRO_Desktop.ps1 | iex
 ```
+### 🐾 单次执行 DeepCleanPRO（桌面启动失败请使用这个）
+> **提示：** 一些电脑环境过度敏感，不允许用户从桌面上执行代码，可以尝试这个一键代码，它是老旧版本，但适应环境更广，只能手动单次执行。
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/DeepCleanPRO/DeepCleanPRO_Tool.ps1 | iex
+```
+
 
 ---
 #### ▶️ 光速分享 (YT) 视频教程：[Windows 神仙玩法：免安装运行GitHub开源项目，1秒把脚本变成桌面工具！](https://youtu.be/d25it0peYKk)
