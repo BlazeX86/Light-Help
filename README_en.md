@@ -81,6 +81,10 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 ```powershell
 iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/DeepCleanPRO/DeepCleanPRO_Desktop.ps1 | iex
 ```
+> **Alternative Code:** If system security restrictions prevent the desktop shortcut from running, please try this alternative code. This version offers broader environmental compatibility, but requires you to manually copy and execute this command for each cleanup.
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/DeepCleanPRO/DeepCleanPRO_Tool.ps1 | iex
+```
 ---
 #### ▶️ Lightspeed Sharing (YT) Video Tutorial: [Windows God Mode: 1-Sec Zero-Install GitHub Scripts to Desktop Apps!](https://youtu.be/d25it0peYKk)
 
