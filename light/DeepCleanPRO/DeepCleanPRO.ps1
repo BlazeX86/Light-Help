@@ -4,7 +4,7 @@ if ($PSCommandPath -or $MyInvocation.MyCommand.Path) {
     exit
 }
 
-$EnableVerification = $true
+$EnableVerification = $false
 
 Clear-Host
 $Host.UI.RawUI.BackgroundColor = "Black"
