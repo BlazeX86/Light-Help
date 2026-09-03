@@ -72,9 +72,9 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 - [▶️ iPhone照片视频无线传输到Windows](#️-光速分享-yt-视频教程iphone照片视频无线传输到windows无需任何软件)
 
 ---
-#### ▶️ 光速分享 (YT) 视频教程：[电脑软件一键双开/多开！独立环境无限多开告别臃肿沙盒](YOUR_YOUTUBE_LINK)
+#### ▶️ 光速分享 (YT) 视频教程：[电脑软件一键双开/多开！独立环境无限多开告别臃肿沙盒](https://youtu.be/xBnsIEr9jrE)
 
-<a href="YOUR_YOUTUBE_LINK" target="_blank">
+<a href="https://youtu.be/xBnsIEr9jrE" target="_blank">
   <img src="images/029-1920-tw.png" width="320" style="border-radius: 8px;" alt="视频封面图" title="点击播放视频" />
 </a>
 
