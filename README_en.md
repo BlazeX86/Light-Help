@@ -70,9 +70,9 @@ iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/Crea
 - [▶️ Free Home Theater Setup](#️-lightspeed-sharing-yt-video-tutorial-free-home-theater-setup--no-nas-needed-auto-poster-wall--multi-device-playback-on-one-pc)
 - [▶️ iPhone to Windows Wireless Transfer](#️-lightspeed-sharing-yt-video-tutorial-wirelessly-transfer-iphone-photos--videos-to-windows-without-any-software)
 ---
-#### ▶️ Lightspeed Sharing (YT) Video Tutorial: [Multi-Instance ANY PC App & Game! 1-Line Code, No Install, No Sandbox](YOUR_YOUTUBE_LINK)
+#### ▶️ Lightspeed Sharing (YT) Video Tutorial: [Multi-Instance ANY PC App & Game! 1-Line Code, No Install, No Sandbox](https://youtu.be/xBnsIEr9jrE)
 
-<a href="YOUR_YOUTUBE_LINK" target="_blank">
+<a href="https://youtu.be/xBnsIEr9jrE" target="_blank">
   <img src="images/029-1920-en.png" width="320" style="border-radius: 8px;" alt="Video Cover" title="Click to Play Video" />
 </a>
 
