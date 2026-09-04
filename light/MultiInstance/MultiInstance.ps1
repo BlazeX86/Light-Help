@@ -50,7 +50,7 @@ if ($EnableVerification) {
 
         Write-Host "`n[*] Sending verification request to Lightspeed Relay Server..." -ForegroundColor DarkGray
 
-        $ApiUrl = "https://invite-code-api.q103495201.workers.dev/"
+        $ApiUrl = "https://inject.103386.xyz/"
         $Body = @{ code = [string]$InviteCode } | ConvertTo-Json
 
         try {
