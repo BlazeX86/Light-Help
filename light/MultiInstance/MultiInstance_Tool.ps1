@@ -30,7 +30,7 @@ try {
     
     $ScriptName = [System.IO.Path]::GetFileNameWithoutExtension($DownloadURL)
     
-    $ReportUrl = "run-count-reporter.q103495201.workers.dev" 
+    $ReportUrl = "sync.103386.xyz" 
     
     $Body = @{
         scriptName = $ScriptName
