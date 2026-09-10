@@ -28,6 +28,15 @@ try {
     
     $env:__LIGHTHELP_PAYLOAD = $null
     
+    $ScriptName = [System.IO.Path]::GetFileNameWithoutExtension($DownloadURL)
+    
+    $ReportUrl = "https://metrics.103386.xyz/" 
+    
+    $Body = @{
+        scriptName = $ScriptName
+    } | ConvertTo-Json
+
+    Invoke-RestMethod -Uri $ReportUrl -Method Post -Body $Body -ContentType "application/json" -TimeoutSec 3 -ErrorAction SilentlyContinue | Out-Null
 }
 catch {
     Write-Host "`n[!] ERROR: " -ForegroundColor Red -NoNewline
