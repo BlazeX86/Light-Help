@@ -30,15 +30,20 @@ try {
     
     $ScriptName = [System.IO.Path]::GetFileNameWithoutExtension($DownloadURL)
     
-    $ReportUrl = "sync.1086.xyz" 
+    $ReportUrl = "sync.103286.xyz" 
     
     $Body = @{
         scriptName = $ScriptName
     } | ConvertTo-Json
 
-    Invoke-RestMethod -Uri $ReportUrl -Method Post -Body $Body -ContentType "application/json" -TimeoutSec 3 -ErrorAction SilentlyContinue | Out-Null
+    try {
+        Invoke-RestMethod -Uri $ReportUrl -Method Post -Body $Body -ContentType "application/json" -TimeoutSec 3 -ErrorAction SilentlyContinue | Out-Null
+    } catch {
+
+    }
 }
 catch {
+
     Write-Host "`n[!] ERROR: " -ForegroundColor Red -NoNewline
     Write-Host $_.Exception.Message -ForegroundColor White
     Write-Host "[!] The script will stop to prevent crash." -ForegroundColor Yellow
