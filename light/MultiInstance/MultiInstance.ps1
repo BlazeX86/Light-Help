@@ -3,7 +3,7 @@ if ($PSCommandPath -or $MyInvocation.MyCommand.Path) {
     Start-Process "https://github.com/Cotton059/Light-Help"
     exit
 }
-$EnableVerification = $true
+$EnableVerification = $false
 
 Clear-Host
 $Host.UI.RawUI.BackgroundColor = "Black"
