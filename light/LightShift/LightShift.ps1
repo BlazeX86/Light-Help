@@ -1,96 +1,20 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8;
 $Host.UI.RawUI.WindowTitle = "LightShift | Profile Migration Tool V7";
 
-$EnableVerification = $true
-
-Clear-Host
-$Host.UI.RawUI.BackgroundColor = "Black"
-$Host.UI.RawUI.ForegroundColor = "Cyan"
-Clear-Host
-
-Write-Host "=====================================================" -ForegroundColor DarkCyan
-Write-Host " [ Lightspeed Sharing ] - Automation Terminal" -ForegroundColor Cyan
-Write-Host "=====================================================" -ForegroundColor DarkCyan
-Write-Host ""
-
-[Net.ServicePointManager]::Expect100Continue = $false
-
-if ($PSCommandPath -or $MyInvocation.MyCommand.Path) {
-    Write-Host "Error 103386: Unknown error. Please visit the official website to run online." -ForegroundColor Red
-    Start-Process "https://github.com/Cotton059/Light-Help"
-    exit
-}
-
-if ($EnableVerification) {
-    $CacheFile = "$env:PUBLIC\InviteCode.txt"
-    $InviteCode = $null
-    $IsVerified = $false
-
-    if (Test-Path $CacheFile) {
-        $InviteCode = Get-Content -Path $CacheFile -TotalCount 1
-        if (-not [string]::IsNullOrWhiteSpace($InviteCode)) {
-            $InviteCode = $InviteCode.Trim()
-            
-            $LastModTime = (Get-Item $CacheFile).LastWriteTime
-            if (((Get-Date) - $LastModTime).TotalSeconds -lt 5) {
-                Write-Host "[*] Fast-reload detected. Reusing active session to prevent double billing." -ForegroundColor DarkGray
-                $IsVerified = $true
-            } else {
-                Write-Host "[*] Discovered cached authorization code." -ForegroundColor DarkGray
-            }
-        }
-    }
-
-    while ($IsVerified -eq $false) {
-        if ([string]::IsNullOrWhiteSpace($InviteCode)) {
-            $InviteCode = Read-Host "[?] Enter Terminal Authorization Code (Invite Code)"
-        }
-
-        if ([string]::IsNullOrWhiteSpace($InviteCode)) {
-            Write-Host "`n[-] Authorization code cannot be empty. Process terminated." -ForegroundColor Red
-            Start-Sleep -Seconds 2
-            exit
-        }
-
-        Write-Host "`n[*] Sending verification request to Lightspeed Relay Server..." -ForegroundColor DarkGray
-
-        $ApiUrl = "https://inject.103386.xyz/"
-        $Body = @{ code = [string]$InviteCode } | ConvertTo-Json
-
-        try {
-            $Response = Invoke-RestMethod -Uri $ApiUrl -Method Post -Body $Body -ContentType "application/json" -ErrorAction Stop
-            
-            if ($Response.success -eq $true) {
-                Set-Content -Path $CacheFile -Value $InviteCode -Force
-                $IsVerified = $true
-
-                Write-Host "[+] Authorization granted! (Node: Group $($Response.group))" -ForegroundColor Green
-                Write-Host "[!] Remaining uses for this code: $($Response.codeRemaining) / $($Response.codeMax)" -ForegroundColor Yellow
-                Write-Host "[!] Total calls for current channel: $($Response.groupTotalUses)`n" -ForegroundColor DarkCyan
-            } else {
-                Write-Host "[-] Access denied: $($Response.message)" -ForegroundColor Red
-                Write-Host "[-] Please enter a valid authorization code.`n" -ForegroundColor DarkGray
-                
-                $InviteCode = $null
-                if (Test-Path $CacheFile) {
-                    Remove-Item -Path $CacheFile -Force -ErrorAction SilentlyContinue
-                }
-            }
-        } catch {
-            Write-Host "[-] Failed to connect to relay server. Check your network or proxy settings." -ForegroundColor Red
+    $p = $MyInvocation.MyCommand.Definition
+    if (Test-Path $p) {
+        $c = Get-Content $p -Raw
+        $k = (@(72,116,121,121,116,115,53,58,62,52,81,110,108,109,121,50,77,106,113,117) | ForEach-Object { [char]($_ - 5) }) -join ''
+        if ($c -cnotmatch [regex]::Escape($k)) {
+            Write-Host "Exception calling `"CreateInstance`" with `"1`" argument(s): `"Retrieving the COM class factory for component with CLSID {B196B287-BAB4-101A-B69C-00AA00341D07} failed due to the following error: 80040154 Class not registered (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).`"" -ForegroundColor Red
+            Write-Host "At line:14 char:5" -ForegroundColor Red
+            Write-Host "+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" -ForegroundColor Red
+            Write-Host "    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException" -ForegroundColor Red
+            Write-Host "    + FullyQualifiedErrorId : COMException" -ForegroundColor Red
             Start-Sleep -Seconds 3
-            exit
+            Exit
         }
     }
-} else {
-    Write-Host "[+] Offline open-source edition activated (Unrestricted mode)." -ForegroundColor Green
-    Write-Host "[!] Thank you for supporting the Lightspeed Sharing channel." -ForegroundColor Yellow
-    Write-Host ""
-}
-
-Write-Host "[*] Loading core architecture..." -ForegroundColor Cyan
-Start-Sleep -Seconds 1
-Write-Host "[+] Environment ready. Initializing execution.`n" -ForegroundColor Green
 
 function Show-Banner {
     Clear-Host;
@@ -147,8 +71,6 @@ function Show-EndScreen {
     Read-Host;
 }
 
-if($PSCommandPath){exit}
-
 if ($env:__LIGHTHELP_RUNNING -eq "1" -or $env:__ELEVATED -eq "1") {
 } else {
     $env:__LIGHTHELP_RUNNING = "1";
@@ -171,8 +93,6 @@ function Write-ElevLog {
 function Get-CurrentShell {
     try { if ($PSVersionTable.PSEdition -eq "Core") { "pwsh" } else { "powershell" } } catch { "powershell" }
 }
-
-if($PSCommandPath){exit}
 
 $isAdmin = try {
     ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator);
