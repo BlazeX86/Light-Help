@@ -1,4 +1,4 @@
-$EnableVerification = $true
+$EnableVerification = $false
 
 Clear-Host
 $Host.UI.RawUI.BackgroundColor = "Black"
