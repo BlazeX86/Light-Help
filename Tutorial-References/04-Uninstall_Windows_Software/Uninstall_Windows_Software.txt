@@ -1,0 +1,30 @@
+📌簡介：
+本期教學分享如何在 Windows 10 與 Windows 11 系統中，使用 Geek Uninstaller 與 O&O AppBuster 快速卸載不需要的第三方軟體與系統預裝應用，徹底清除殘留檔案與登錄檔，讓您的系統保持純淨與極致流暢。
+
+📌Description:
+Learn how to quickly uninstall unwanted software and pre-installed system bloatware on Windows 10 and Windows 11 using Geek Uninstaller and O&O AppBuster, completely removing leftover files and registry entries to keep your system clean and running at peak performance.
+----------------------------------------
+
+▶教學影片網址：
+Tutorial Video:
+Youtube:
+https://youtu.be/[待替換影片ID]
+bilibili:
+https://www.bilibili.com/video/[待替換BV號]/
+
+----------------------------------------
+
+⬇️Geek Uninstaller (強力軟體卸載工具)
+Geek Uninstaller (Software Uninstaller Tool)
+https://geekuninstaller.com/download
+
+⬇️O&O AppBuster (系統預裝應用卸載工具)
+O&O AppBuster (Pre-installed Apps Remover)
+https://www.oo-software.com/en/ooappbuster
+
+
+----------------------------------------
+
+💡如果您對其他教學感興趣，可一鍵打包所有已更新的教學資料。
+If you are interested in other tutorials, you can download all updated tutorial materials with a single click.
+https://mypikpak.com/s/VP3FbOWSetF32396Hp3UFv6Eo2
